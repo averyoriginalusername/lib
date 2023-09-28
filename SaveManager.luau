@@ -1,8 +1,7 @@
-warn("project rain is skdided buy scrub hub")
 local httpService = game:GetService('HttpService')
 
 local SaveManager = {} do
-	SaveManager.Folder = 'LinoriaLibSettings'
+	SaveManager.Folder = 'TestHubSettings'
 	SaveManager.Ignore = {}
 	SaveManager.Parser = {
 		Toggle = {

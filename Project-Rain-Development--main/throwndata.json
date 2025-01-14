@@ -1,0 +1,48 @@
+{
+    "TRACKER": {
+      "Delay": 0,
+      "Roll": false,
+      "Range": 11
+    },
+    "STREAMPART": {
+      "Delay": 0,
+      "Roll": false,
+      "Range": 35
+    },
+    "SpikeStabEff": {
+      "Delay": 600,
+      "Roll": false,
+      "Range": 150
+    },
+    "GrabPart": {
+      "Delay": 0,
+      "Roll": false,
+      "Range": 3
+    },
+    "HitTendril": {
+      "Delay": 550,
+      "Roll": false,
+      "Range": 150
+    },
+    "indicator": {
+      "Delay": 650,
+      "Roll": true,
+      "Range": 31.4
+    },
+    "ImpactIndicator": {
+      "Delay": 350,
+      "Roll": false,
+      "Range": 16
+    },
+    "PerilousAttack": {
+      "Delay": 600,
+      "Roll": true,
+      "Range": 150
+    },
+    "BoneSpear": {
+      "Delay": 200,
+      "Roll": false,
+      "Range": 75
+     
+    }
+  }

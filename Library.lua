@@ -9,10 +9,12 @@ local RenderStepped = RunService.RenderStepped;
 local LocalPlayer = Players.LocalPlayer;
 local Mouse = LocalPlayer:GetMouse();
 
+--[[
 local ScreenGui = Instance.new('ScreenGui');
 ScreenGui.Name = game:GetService("HttpService"):GenerateGUID(false)
 ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
 ScreenGui.Parent = CoreGui;
+--]]
 
 local Toggles = {};
 local Options = {};
@@ -40,7 +42,7 @@ local Library = {
     DependencyBoxes = {};
 
     Signals = {};
-    ScreenGui = ScreenGui;
+    -- ScreenGui = ScreenGui;
 };
 
 local RainbowStep = 0
@@ -2974,6 +2976,12 @@ function Library:CreateWindow(...)
         Tabs = {};
     };
 
+    local ScreenGui = Instance.new('ScreenGui');
+    ScreenGui.Name = game:GetService("HttpService"):GenerateGUID(false)
+    ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling;
+    ScreenGui.Parent = CoreGui;
+    Library.ScreenGui = ScreenGui
+    
     local Outer = Library:Create('Frame', {
         AnchorPoint = Config.AnchorPoint,
         BackgroundColor3 = Color3.new(0, 0, 0);
